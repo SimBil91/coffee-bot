@@ -1,0 +1,4 @@
+<launch>
+<node name="eezybot_ros_serial" type="serial_node.py" pkg="rosserial_python" output="screen" args="_port:=/dev/ttyACM0" />
+<node name="coffee_bot_joint_trajectory" type="robot_poses.py" pkg="coffee_bot" output="screen" />
+</launch>

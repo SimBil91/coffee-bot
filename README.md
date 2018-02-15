@@ -8,10 +8,10 @@ http://www.eezyrobots.it/eba_mk2.html
 II. Afterwards, grab an Arduino Uno and flash the eezybot_ros_driver onto it. 
 
 The 4 servos should be connected to pins 
-* x-axis:(9);
-* y-axis:(6);
-* z-axis:(10);
-* gripper:(5);
+* x-axis:(9)
+* y-axis:(6)
+* z-axis:(10)
+* gripper:(5)
 
 
 III. Connect the Arduino to your laptop and run:
@@ -31,5 +31,6 @@ rostopic pub /pose_name std_msgs/String "data: 'test'"
 ```
 
 Please find a simple example trajectory of the robot operating a coffee machine.
+
 https://www.youtube.com/watch?v=67vlp17iGj8
 

@@ -23,7 +23,6 @@ If there is an error, you may have to adjust your usb port in the launch file.
 
 You should now be able to move each servo of the robot by firstly selecting the axis (x,y,z,g) followed by +,-.
 Pressing 'n', saves the current pose and pushes it into the sequence.
-
 's' saves the current sequence.
 
 The robot pose sequences are saved as yaml files and can be played by publishing a string to topic "pose_name":
@@ -32,5 +31,5 @@ rostopic pub /pose_name std_msgs/String "data: 'test'"
 ```
 
 Please find a simple example trajectory of the robot operating a coffee machine.
-
+https://www.youtube.com/watch?v=67vlp17iGj8
 

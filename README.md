@@ -1,10 +1,11 @@
 # coffee-bot
 ROS integration for the 3D printed eezybot MK2.
 
-In order to print your own eezybot robot arm, please visit:
+I. In order to print your own eezybot robot arm, please visit:
 http://www.eezyrobots.it/eba_mk2.html
 
-Afterwards, grab an Arduino Uno and flash the eezybot_ros_driver onto it. 
+
+II. Afterwards, grab an Arduino Uno and flash the eezybot_ros_driver onto it. 
 
 The 4 servos should be connected to pins 
 *x-axis:(9);
@@ -12,7 +13,8 @@ The 4 servos should be connected to pins
 *z-axis:(10);
 *gripper:(5);
 
-Connect the Arduino to your laptop and run:
+
+III. Connect the Arduino to your laptop and run:
 ```
 roslaunch coffee_bot coffee_bot.launch 
 ```
